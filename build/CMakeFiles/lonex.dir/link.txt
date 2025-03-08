@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lonex.dir/main.cpp.o -o lonex   -L/opt/homebrew/opt/boost/lib  -Wl,-rpath,/opt/homebrew/opt/boost/lib /opt/homebrew/opt/boost/lib/libboost_system.a
