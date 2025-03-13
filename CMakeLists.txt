@@ -5,6 +5,7 @@ project(lonex)  # Set the project name to "lonex"
 set(Boost_INCLUDE_DIR /opt/homebrew/opt/boost/include)
 set(Boost_LIBRARY_DIR /opt/homebrew/opt/boost/lib)
 
+
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIR})
 
